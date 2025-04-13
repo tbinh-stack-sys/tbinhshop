@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+header {
+  background: #333;
+  color: white;
+  padding: 10px 0;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+.hero {
+  background: #0077cc;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: white;
+  color: #0077cc;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.featured-posts {
+  padding: 40px 20px;
+}
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.post {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+}
+.signup {
+  background: #eee;
+  padding: 30px;
+  text-align: center;
+}
+.signup input[type='email'] {
+  padding: 10px;
+  width: 250px;
+  margin-right: 10px;
+}
+.signup button {
+  padding: 10px 20px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: white;
+}
